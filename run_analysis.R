@@ -37,7 +37,7 @@ names(jointData) <- gsub("mean", "Mean", names(jointData))
 names(jointData) <- gsub("std", "Std", names(jointData)) 
 names(jointData) <- gsub("-", "", names(jointData))
 #Create merged dataset
-dataset <- cbind(jointSubjects, activityLabels, jointData)
+dataset <- cbind(jointSubjects, jointLabels, jointData)
 
 
 #5 Create final dataset with averages
