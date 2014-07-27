@@ -18,3 +18,13 @@ Run the dataset using the Rscript or the source commands. The output should be a
 Example
 -------------
 source('run_analysis.r'). The "tidy.txt" file should be generated after the script finishes executing.
+
+How the Script works
+--------------
+1) Unzips the original data to a new "data" folder
+2) Extracts the Train and Test datasets and merges them into a single dataset
+3) Extracts the Mean and Std Deviation measures
+4) Ensures variables and activities are descriptive
+5) Creates a final tidy dataset by iterating through Subjects and Activities and creating an observation (row) for each combination of them with the average of each Mean and Std Deviation measure.
+6) Writes the tidy dataset to tidy.txt
+7) It would open a beer for you right afterward, but it can't, it's software.
