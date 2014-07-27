@@ -17,5 +17,4 @@ Run the dataset using the Rscript or the source commands. The output should be a
 
 Example
 -------------
-source('run_analysis.r')
-<tidy.txt> should be generated after the script finishes executing.
+source('run_analysis.r'). The "tidy.txt" file should be generated after the script finishes executing.
